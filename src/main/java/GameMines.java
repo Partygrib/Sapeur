@@ -44,8 +44,8 @@ class GameMines extends JFrame {
     Cell[][] field = new Cell[FIELD_SIZE][FIELD_SIZE];
     Random random = new Random();
     int countOpenedCells;
-    boolean youWon, bangMine; // flags for win and bang/fail
-    int bangX, bangY; // for fix the coordinates of the explosion
+    boolean youWon, bangMine; //проверка
+    int bangX, bangY;
 
     public static void main(String[] args) {
             new GameMines();
